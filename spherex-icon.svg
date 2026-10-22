@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#04060d" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <!-- Background Glow -->
+  <circle cx="50" cy="50" r="40" fill="url(#coreGlow)" />
+  <!-- Elliptical Orbit Rings -->
+  <ellipse cx="50" cy="50" rx="42" ry="18" stroke="url(#orbitGrad)" stroke-width="2.5" stroke-dasharray="4 2" transform="rotate(-30 50 50)" />
+  <ellipse cx="50" cy="50" rx="35" ry="14" stroke="#818cf8" stroke-width="1.5" opacity="0.6" transform="rotate(35 50 50)" />
+  <!-- Central SPHEREx Telescope Icon / Core -->
+  <polygon points="50,22 64,68 36,68" fill="#1e293b" stroke="#38bdf8" stroke-width="2" stroke-linejoin="round" />
+  <!-- Spectral Rings (102 bands representation) -->
+  <path d="M40,55 Q50,60 60,55" stroke="#ef4444" stroke-width="2" fill="none" />
+  <path d="M43,45 Q50,50 57,45" stroke="#fbbf24" stroke-width="2" fill="none" />
+  <path d="M46,35 Q50,40 54,35" stroke="#38bdf8" stroke-width="2" fill="none" />
+  <circle cx="50" cy="22" r="4" fill="#67e8f9" />
+  <!-- Photon particles -->
+  <circle cx="78" cy="34" r="3" fill="#a855f7" />
+  <circle cx="22" cy="62" r="2" fill="#38bdf8" />
+  <circle cx="70" cy="72" r="2.5" fill="#f59e0b" />
+</svg>
